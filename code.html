@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="/youtubeClone/code.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+
+    <header class="header">
+        <div class="header__left">
+            <span id="menu-icon" class="material-icons">menu</span>
+            <img src="/youtubeClone/logo.youtube.png" alt="YouTube Logo" class="header__logo">
+        </div>
+
+        <div class="header__search">
+            <input type="text" placeholder="Search">
+            <button class="search-btn"><span class="material-icons">search</span></button>
+            <span class="material-icons mic-icon">mic</span>
+        </div>
+
+        <div class="header__right">
+            <span class="material-icons">video_call</span>
+            <span class="material-icons">apps</span>
+            <span class="material-icons">notifications</span>
+            <img src="/youtubeClone/IMG20240207095442.jpg" alt="User Avatar" class="header__avatar">
+        </div>
+    </header>
+
+
+    <div class="main-body">
+
+
+        <aside class="sidebar">
+            <div class="sidebar__category">
+                <span class="material-icons">home</span>
+                <span>Home</span>
+            </div>
+            <div class="sidebar__category">
+                <span class="material-icons">local_fire_department</span>
+                <span>Trending</span>
+            </div>
+            <div class="sidebar__category">
+                <span class="material-icons">subscriptions</span>
+                <span>Subscriptions</span>
+            </div>
+            <hr>
+            <div class="sidebar__category">
+                <span class="material-icons">library_add_check</span>
+                <span>Library</span>
+            </div>
+            <div class="sidebar__category">
+                <span class="material-icons">history</span>
+                <span>History</span>
+            </div>
+            <div class="sidebar__category">
+                <span class="material-icons">play_arrow</span>
+                <span>Your Videos</span>
+            </div>
+            <div class="sidebar__category">
+                <span class="material-icons">watch_later</span>
+                <span>Watch Later</span>
+            </div>
+            <div class="sidebar__category">
+                <span class="material-icons">thumb_up</span>
+                <span>Liked Videos</span>
+            </div>
+        </aside>
+
+        <!-- Video Grid -->
+        <main class="video-grid">
+            <!-- Single Video Card -->
+            <div class="video-card">
+                <img src="https://i.ytimg.com/vi/yXWw0_UfSFg/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB5fBNE2c4i22aL1m5qT2x_2Z8tqA" alt="Video Thumbnail" class="video-card__thumbnail">
+                <div class="video-card__info">
+                    <img src="https://i.pravatar.cc/40?img=1" alt="Channel" class="video-card__avatar">
+                    <div class="video-card__text">
+                        <h4>Build a Website FAST | HTML & CSS Tutorial</h4>
+                        <p>Traversy Media</p>
+                        <p>2.3M views • 3 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for more videos -->
+            <div class="video-card">
+                <img src="https://i.ytimg.com/vi/PkZNo7MFNFg/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB-lB-mJ9n8M5_Qf_3Gg_1a_3q_2g" alt="Video Thumbnail" class="video-card__thumbnail">
+                <div class="video-card__info">
+                    <img src="https://i.pravatar.cc/40?img=2" alt="Channel" class="video-card__avatar">
+                    <div class="video-card__text">
+                        <h4>JavaScript Crash Course For Beginners</h4>
+                        <p>Traversy Media</p>
+                        <p>5.1M views • 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+             <div class="video-card">
+                <img src="https://i.ytimg.com/vi/R34Mrn4v4U4/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD4YJjUa4rI_M7V1zI7n8n_5b_9aQ" alt="Video Thumbnail" class="video-card__thumbnail">
+                <div class="video-card__info">
+                    <img src="https://i.pravatar.cc/40?img=4" alt="Channel" class="video-card__avatar">
+                    <div class="video-card__text">
+                        <h4>The Perfect Burger | Basics with Babish</h4>
+                        <p>Binging with Babish</p>
+                        <p>3.8M views • 4 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="/youtubeClone/images.lofi.jpg" alt="Video Thumbnail" class="video-card__thumbnail">
+                <div class="video-card__info">
+                    <img src="https://i.pravatar.cc/40?img=5" alt="Channel" class="video-card__avatar">
+                    <div class="video-card__text">
+                        <h4>Lo-fi Hip Hop Radio - Beats to Relax/Study to</h4>
+                        <p>Lofi Girl</p>
+                        <p>987K views • Streamed 2 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+                        <div class="video-card">
+                <img src="/youtubeClone/img.faceoff.png" alt="Video Thumbnail" class="video-card__thumbnail">
+                <div class="video-card__info">
+                    <img src="/youtubeClone/img.dpfaceoff.png" alt="Channel" class="video-card__avatar">
+                    <div class="video-card__text">
+                        <h4>VNIT NAGPUR | Dance Faceoff | Institute Gathering '24 </h4>
+                        <p>Netra Wasekar</p>
+                        <p>6.6K views • 3 months ago</p>
+                    </div>
+                </div>
+            </div>
+            
+                        <div class="video-card">
+                <img src="/youtubeClone/mit.faceimage.png" alt="Video Thumbnail" class="video-card__thumbnail">
+                <div class="video-card__info">
+                    <img src="/youtubeClone/mit.logo.png" alt="Channel" class="video-card__avatar">
+                    <div class="video-card__text">
+                        <h4>MIT 18.01 Single Variable Calculus, Fall 2007 </h4>
+                        <p>MIT opencourseware</p>
+                        <p>15M views • 14 years ago</p>
+                    </div>
+                </div>
+            </div>
+            
+                        <div class="video-card">
+                <img src="/youtubeClone/utube.png" alt="Video Thumbnail" class="video-card__thumbnail">
+                <div class="video-card__info">
+                    <img src="/youtubeClone/calcutta.imgdp.png" alt="Channel" class="video-card__avatar">
+                    <div class="video-card__text">
+                        <h4>Kolkata City | कोलकाता शहर की सभी जानकारी | Kolkata City full information | Kolkata Amazing Facts </h4>
+                        <p>Most Amazing Klips</p>
+                        <p>15K views • 1 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="/youtubeClone/polotics.face.png" alt="Video Thumbnail" class="video-card__thumbnail">
+                <div class="video-card__info">
+                    <img src="/youtubeClone/dp.png" alt="Channel" class="video-card__avatar">
+                    <div class="video-card__text">
+                        <h4>What is Liberalism in Global Politics? </h4>
+                        <p>Korczyk's Class</p>
+                        <p>64K views • 4 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+    </div>
+    
+    <script src="/youtubeClone/code.js"></script>
+</body>
+</html>
